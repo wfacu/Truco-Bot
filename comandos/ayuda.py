@@ -11,11 +11,11 @@ async def ayuda(ctx):
         color=discord.Color(0xB2C9E7),
     )
 
-    # Añadir pie de página
+    # Añadir footer
     embed.set_footer(text="Programado por @wfacu", icon_url="https://i.ibb.co/YRgc2bX/github-brands-solid.png")
     embed.set_image(url="https://i.imgur.com/RehGhFA.png")
 
-    # Añadir campos al embed
+    # Añadir fields al embed
     embed.add_field(name="¿Cómo funciona?", value="Vas a poder iniciar una partida en cualquier canal de un servidor, pero las cartas que elijas para jugar solo las vas a poder ver vos únicamente, ya que el bot te manda tu mano de cartas por privado.\n\n" + 
     "Es importante por eso que tengas tus DMs habilitados, sino la partida no podrá iniciar.\n\n" +
     "El resultado de cada ronda y del final de la partida se muestra tanto en tus DMs como en el canal donde se inició la partida.\n\n" +
