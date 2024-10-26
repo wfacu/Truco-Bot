@@ -18,7 +18,7 @@ async def on_ready():
 bot.remove_command('help')
 
 # Registrar comandos
-bot.add_command(menu)
+bot.add_command(ayuda)
 
 # Run bot
 bot.run(secrets.TOKEN)
