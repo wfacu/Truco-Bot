@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 import secrets
-from comandos.ayuda import ayuda  # Asegúrate de que esto esté correcto
+from comandos.ayuda import ayuda
 
 intents = discord.Intents.default()
 intents.message_content = True
