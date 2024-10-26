@@ -1,4 +1,3 @@
-# main.py
 import discord
 from discord.ext import commands
 import secrets
@@ -18,8 +17,8 @@ async def on_ready():
 # Deshabilitar el comando help por defecto
 bot.remove_command('help')
 
-# Registra el comando menu
-bot.add_command(menu)  # Esto ahora debería funcionar
+# Registrar comandos
+bot.add_command(menu)
 
-# Ejecutar el bot
+# Run bot
 bot.run(secrets.TOKEN)
